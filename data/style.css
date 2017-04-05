@@ -1,0 +1,92 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	
+	background-color: #efefef;
+
+	background: #7d91cf url(/data/images/background_gehrden.png) repeat-x;
+	background-attachment: fixed;
+}
+
+
+
+#wrapper
+{
+	background-color: white;
+	width: 900px;
+	min-height: 920px;
+	margin: 10px auto;
+	overflow: hidden;
+	
+	padding: 10px;
+	
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 6px 7px 8px 0px rgba(176,176,176,1);
+	-moz-box-shadow: 6px 7px 8px 0px rgba(176,176,176,1);
+	box-shadow: 6px 7px 8px 0px rgba(176,176,176,1);
+}
+
+
+/* Header */
+#header
+{
+	height: 80px;
+}
+
+#header #headerTitle
+{
+	float: left;
+	font-weight: normal;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#header .logo
+{
+	float: right;
+	height: 100%;
+	margin-left: 15px;
+}
+
+/* Menü */
+#mainmenu ul {
+    list-style-type: none;
+    margin-left: -10px;
+	margin-right: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#mainmenu li {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+
+#mainmenu li:last-child {
+	border-right: none;
+}
+
+#mainmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mainmenu li a:hover {
+    background-color: #4CAF50;
+}
+
+#mainmenu .active {
+    background-color: #4CAF50;
+}
