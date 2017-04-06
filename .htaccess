@@ -1,7 +1,3 @@
-# deny access
-order deny,allow
-deny from all
-
 # Virtuelle Verzeichnisse
 #
 <IfModule mod_rewrite.c>
